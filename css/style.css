@@ -1,0 +1,490 @@
+/* barra de navegacion */
+
+.navbar {
+    padding: 2rem;
+    background: rgb(238, 238, 238);
+}
+
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+/* seccion hero */
+
+
+
+
+h1 {
+    font-size: 2.5rem;
+    font-family: 'Rubik Dirt', cursive;
+}
+
+
+
+/* seccionoscura */
+
+.seccion-oscura {
+    background: #1b1b32;
+    color: white;
+    padding: 2rem;
+}
+
+.seccion-clara {
+    color: black;
+    background: white;
+    padding: 2rem;
+}
+
+
+.seccion-titulo {
+    font-size: 2rem;
+    padding: 1.5rem 0;
+    font-family: 'Rubik Dirt', cursive;
+}
+
+
+.seccion-descripcion {
+    font-size: 1.2rem;
+    color: #584e4e;
+}
+
+.seccion-text {
+    font-size: 1.2rem;
+}
+
+.btn-info {
+    margin: auto;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.hero {
+    background: #f5f6f7;
+    min-height: 450px;
+    text-align: center;
+}
+
+.img-profile {
+    margin: 2rem;
+
+}
+
+.hero-principal {
+    padding: 3rem;
+}
+
+.hero-principal h2 {
+    font-size: 1.5rem;
+    color: #615151;
+}
+
+
+
+
+
+/* sobre mi */
+.sobre-mi {
+    height: 400px;
+    /* margin-top: 2rem; */
+    text-align: center;
+    padding: 1rem;
+}
+
+
+.sobre-mi .contenedor {
+    max-width: 600px;
+    /* text-align: center; */
+    margin: auto;
+}
+
+
+
+/* experiencia */
+.experencia {
+    padding: 40px 40px 60px 40px;
+}
+
+.experencia .columna {
+    padding: 20px;
+    border: 2px solid #8080804d;
+    transition: all 0.2s ease-in;
+}
+
+.experencia .columna:hover {
+    color: white;
+    background: #1b1b32;
+}
+
+.experencia i {
+    font-size: 2.5rem;
+    color: #7ade30;
+    background: #0a0a23;
+    padding: 12px 22px;
+    border-radius: 50%;
+}
+
+
+
+.experencia-titulo {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+
+.badges-contenedor {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.badges {
+    margin: 5px;
+}
+
+
+/* .seccion-proyectos */
+.proyectos-recientes {
+    padding: 40px;
+}
+
+.proyectos-recientes img {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    display: block;
+    transition: all 0.2s ease;
+}
+
+.proyectos-contenedor {
+    padding-top: 6rem;
+    margin-bottom: 4rem;
+}
+
+
+.overlay {
+    transition: all 0.2s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+.overlay p {
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.proyecto {
+    position: relative;
+}
+
+.proyecto:hover img {
+    opacity: 0.2;
+}
+
+.proyecto:hover .overlay {
+    opacity: 1;
+}
+
+
+/* .overlay .iconos-contenedor {
+    display: flex;
+} */
+
+.overlay i {
+    color: black;
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+.texto-negro {
+    color: black;
+}
+
+.texto-blanco {
+    color: white;
+}
+
+
+
+
+/* articulos */
+.card {
+    margin: auto;
+}
+
+.articulos {
+    min-height: 300px;
+    padding: 30px;
+    margin: auto;
+}
+
+.articulos .card {
+    width: 80%;
+    max-width: 400px;
+}
+
+.articulos .card-header {
+    font-weight: bold;
+}
+
+
+/* btn articuls */
+
+.btn-outline-info {
+    margin-top: 1.6rem;
+}
+
+
+/* tetimonios */
+
+.testimonios {
+    padding: 40px 40px 80px 40px;
+}
+
+
+.testimonios .carousel {
+    margin: auto;
+    max-width: 800px;
+}
+
+.carousel-item {
+    height: 500px;
+}
+
+.carousel-item .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.testimonio-img {
+    width: 150px;
+    height: 150px;
+    margin: 10px 10px 20px 10px;
+}
+
+.testimonio-texto {
+    width: 70%;
+    font-size: 20px;
+    font-family: 'Shore Tech Mono', monospace;
+}
+
+.testimonio-info {
+    font-weight: bold;
+    text-align: center;
+}
+
+.testimonio-info p {
+    margin-bottom: 0;
+}
+
+.testimonio-footer .cliente {
+    font-size: .9rem;
+    color: #656060;
+}
+
+
+.contacto .container {
+    max-width: 1100px;
+    min-height: 200px;
+    padding: 20px;
+}
+
+.contacto .rectangulo {
+    margin-top: -5rem;
+    background: rgb(13, 110, 253);
+    border-radius: 10px;
+    box-shadow: 0px 1px 4px 1px white;
+}
+
+.contacto .row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.contacto .descripcion {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.contacto button {
+    color: #fff;
+    font-weight: bold;
+    background: transparent;
+    border: 2px solid white;
+    padding: .6em .8em;
+    margin: 10px;
+    border-radius: 100px;
+    transition: all 0.2s ease-in-out;
+}
+
+.contacto button:hover {
+    background: white;
+    color: black;
+}
+
+.contacto button i {
+    color: white;
+    font-size: 1.3rem;
+    transition: all 0.2s ease-in-out;
+
+}
+
+.contacto button:hover i {
+    color: black;
+}
+
+
+/* footer */
+
+footer {
+    min-height: 500px;
+    margin: auto;
+}
+
+.footer-logo {
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    color: #fff;
+    background: #fff;
+    border: 3px solid white;
+}
+
+.footer-texto {
+    font-size: 1.5rem;
+    padding: 20px;
+    margin-bottom: 30px;
+    font-family: 'Shore Tech Mono', monospace;
+}
+
+
+.icono-redes-sociales a {
+    width: 50px;
+    height: 50px;
+    /* margin: auto; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 10px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    transition: all .2s ease-in;
+}
+
+.icono-redes-sociales i {
+    color: #fff;
+    font-size: 1.6rem;
+}
+
+.icono-redes-sociales a:hover {
+    background: #fff;
+    border: 2px solid rgb(13, 110, 253);
+
+}
+
+.icono-redes-sociales a:hover i {
+    color: black;
+
+}
+
+
+.derecho-autor {
+    font-size: 1.6rem;
+    color: #aeaeae;
+    padding: 20px;
+    margin-top: 2rem;
+}
+/* adaptable (Responsivo) */
+
+
+/* iconos */
+@media (width <=768px) {
+    .icono-redes-sociales {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .derecho-autor {
+        font-size: 1rem;
+    }
+}
+
+/* contactos */
+@media (width >=1000px) {
+    .contacto button {
+        padding: 1em 1.6em;
+        transition: all .2s ease-in;
+    }
+}
+
+@media (width <=460px) {
+    .contacto button {
+        padding: .2em .6em;
+        transition: all .2s ease-in;
+    }
+}
+
+/* testimonios */
+@media (width <=768px) {
+    .testimonio-img {
+        width: 120px;
+        height: 120px;
+        /* margin: 10px 10px 20px 10px; */
+    }
+
+    .testimonio-texto {
+        font-size: 18px;
+    }
+
+}
+
+/* iconos */
+@media (width <=460px) {
+    .overlay p {
+        font-size: 1.2rem;
+    }
+
+    .overlay i {
+        font-size: 1.6rem;
+    }
+}
+
+
+@media (width <=768px) {
+    .navbar-brand {
+        display: none;
+    }
+
+
+}
+
+
+
+@media (width >=700px) {
+    .hero-img {
+        max-width: 600px;
+    }
+}
+
+
+@media (width <=460px) {
+    .sobre-mi {
+        height: 700px;
+    }
+}
